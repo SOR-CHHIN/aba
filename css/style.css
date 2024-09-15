@@ -1,0 +1,128 @@
+body {
+    background-image: linear-gradient(to left, #02b5c0, #015c79, #0b5474);
+    font-family: sans-serif;
+    margin-top: 100px;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    display: grid;
+    flex: 3;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 30% 30% 30%;
+    background-color:#1a6f72;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 65%;
+    height: 50vh;
+    
+}
+.container{
+    flex: 1 0 200px;
+}
+
+.title {
+    text-align: center;
+    
+}
+
+header{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.line {
+    width: 200px;
+    height: 1px;
+    background: #44d6db;
+}
+span {
+    width: 10px;
+    height: 10px;
+    background: #26d5db;
+    padding: 10px;
+    border-radius: 40px;
+}
+h1{
+    color: transparent;
+    background-image: linear-gradient(to right, black 38%, #3498db 50%);
+    background-clip: text;
+    margin-bottom: -3px;
+    
+}
+
+.left-form img {
+    width: 100%;
+    height: 50vh;
+    grid-column: 20px;
+    
+}
+
+.right-form {
+    width: 100%;
+    background-color: #0dbbb9;
+    height: 50vh;
+    clip-path: polygon(0 0, 100% 100%, 100% 0);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center ;
+    font-variant-ligatures:sans-serif; 
+    
+}
+
+.form-header .logo {
+    text-align: center;
+    border-radius: 50%;
+    width: 20%;
+    margin-bottom: -10px;
+
+}
+
+.form-container {
+    text-align: center;
+}
+
+.form-group {
+    width: 100%;
+    font-size: 30px;
+    height: 6vh;
+    margin-top: 25px;
+    text-align: start;
+    margin-left: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    padding: 13px;
+    outline-color: #26d5db;
+    font-family: "Khmer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+button{
+    padding: 13px;
+    border: none;
+    background: #11aaaf;
+    color: #fff;
+    font-weight: 600px;
+    cursor: pointer;
+    transition: all .3s ease;
+    border-radius: 4px;
+    font-family: "Khmer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.robot{
+    width: 60%;
+}
+.banner{
+    clip-path: polygon(79% 0, 0 0, 0 100%, 81% 100%, 100% 51%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
